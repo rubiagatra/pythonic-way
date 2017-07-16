@@ -32,8 +32,5 @@ class CreditCard:
     def make_payment(self, amount):
         self._balance -= amount
 
-cc = CreditCard( 'John Doe', '1st Bank', '5391 0375 9387 5309', 1000)
-print(cc.get_account())
-print(cc.get_bank())
-
-
+if __name == "__main__":
+    pass
