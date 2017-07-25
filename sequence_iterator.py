@@ -16,6 +16,6 @@ class SequenceIterator:
 
 if __name__ == "__main__":
     seq = SequenceIterator([1,2,3])
-    for i in iter(seq):
+    for i in seq:
         print(i)
         print(next(seq))
